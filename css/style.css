@@ -1,0 +1,22 @@
+.card{
+    text-align: center;
+    
+}
+.background{
+    width: 8%;
+}
+#morado{
+    background-color: #9980FA;
+    width: 100%;
+}
+#azulito{
+    background-color: #006266;
+    width: 100%;
+}
+#naranjita{
+    background-color: #EE5A24;
+    width: 100%;
+}
+#white{
+    background: whitesmoke;
+}
