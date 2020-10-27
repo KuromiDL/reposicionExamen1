@@ -103,3 +103,14 @@ var options = [];
 
 input_filtro.addEventListener('keyup', imprimir_campeones);
 imprimir_campeones();
+
+function filterItems(){
+    var opt, sel = form.campeones_tags;
+    for (var i = sel.options.lenght -1; i>=0; i--){
+        opt = sel.options[i];
+        //if (opt.text.toLowerCase()index)
+
+    }
+
+
+}
