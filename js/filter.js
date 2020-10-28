@@ -5,6 +5,7 @@ const selector_tags = document.querySelector('#campeones_tags');
 const imprimir_campeones = (lista_campeones) => {
     secc_cards.innerHTML = '';
     let filtro = input_filtro.value.toLowerCase();
+    let filtradoTipo = selector_tags.value;
     campeones.forEach(obj_campeon => {
         if (obj_campeon.id.toLowerCase().includes(filtro)) {
             let card = document.createElement('div');

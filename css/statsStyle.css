@@ -1,8 +1,28 @@
 body{
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
-.elCampeonDeHp{
-    margin-left: 20%;
-    margin-right: 49%;
+.cardStats{
+    text-align: center;
+    
+}
+.statsDash{
+  
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.foto{
+    
+    align-items: center;
+    justify-content: center;
+    
 
 }
